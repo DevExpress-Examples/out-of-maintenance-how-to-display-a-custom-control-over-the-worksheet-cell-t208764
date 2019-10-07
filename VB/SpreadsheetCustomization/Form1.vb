@@ -10,7 +10,7 @@ Namespace SpreadsheetCustomization
         Public Shared categories() As String = { "Meat/Poultry", "Condiments", "Seafood", "Dairy Products", "Grains/Cereals", "Beverages", "Confections" }
         Private workbook As IWorkbook
         Private worksheet As Worksheet
-        Private categoryColumn As Range
+        Private categoryColumn As CellRange
         Private activeCell As Cell
         Private comboBox As ComboBox
 

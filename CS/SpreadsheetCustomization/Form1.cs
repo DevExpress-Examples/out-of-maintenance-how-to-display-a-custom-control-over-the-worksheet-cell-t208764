@@ -10,7 +10,7 @@ namespace SpreadsheetCustomization
         public static string[] categories = { "Meat/Poultry", "Condiments", "Seafood", "Dairy Products", "Grains/Cereals", "Beverages", "Confections" };
         IWorkbook workbook;
         Worksheet worksheet;
-        Range categoryColumn;
+        CellRange categoryColumn;
         Cell activeCell;
         ComboBox comboBox;
 
